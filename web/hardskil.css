@@ -1,0 +1,65 @@
+@import url(index.css);
+
+.nomesdecima{
+    background-color: #EAEAEA;
+    padding: 10px;
+    width: 100%;
+    margin-top: -35px;
+}
+.h1nome{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    padding-top: 40px;
+}
+.h2nome{
+    display: flex;
+    justify-content: center;
+    color: #BDBDBD;
+}
+.listaprogresso{
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+.imgprogresso{
+    display: flex;
+    justify-content: end;
+    margin-top: -340px;
+    margin-right: 100px;
+}
+.barrinha::-webkit-progress-value {
+    background-color: #F3C9D8;
+  }
+  progress {
+    background: yellow;
+  }
+  .minhaimagem{
+    margin-top: 90px;
+}
+@media screen and (max-width: 600px) {  
+.listaprogresso{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.minhaimagem{
+    margin-right: 100px;
+    margin-top: 90px;
+    height: 300px;
+    display: flex;
+    justify-content: end;
+}
+.contatos{
+        margin-right: 40px;
+        color: #000000;
+        font-weight: 400;
+        font-size: 14px;
+    }
+}

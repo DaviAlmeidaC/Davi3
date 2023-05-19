@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    list-style-type: none;
+  }
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.nomesdecima{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    background-color: #EAEAEA;
+}
+a{
+    text-decoration: none;
+}
+.nomes{
+    margin-right: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+.lista{
+    display: flex;
+    justify-content: end;
+}
+.logo{
+    height: 30px;
+    margin-right: 630px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.ultimonome{
+    font-weight: 500;
+    font-size: 17px;
+    color: #000000;
+} 
+.primeiradiv1{
+    padding: 70px;
+    background-color: #F3C9D8;
+}
+
+.h1-primeiro{
+    padding-top: 150px;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.palavra{
+    display: flex;
+    flex-direction: column;
+}
+.img-primeira{
+    display: flex;
+    justify-content: end;
+    height: 350px;
+    width: 1100px;
+    margin-top: -200px;
+}
+.div-2{
+    padding: 70px;
+}
+.h1-segunda{
+    font-size: 20px;
+    padding-right: -100px;
+    padding-top: 90px;
+    padding-bottom: 80px;
+    color: #ED5BBB;
+}
+.palavra2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+}
+.outradiv{
+    background-color: #F3C9D8;
+}
+.h1part2{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding-top: 70px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding-top: 15px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+.ulbolas{
+    display: flex;
+    justify-content: center; 
+}
+.bola {
+    border-radius: 60%;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin-right: 100px;
+    
+}
+.informaçoesdabola{
+    display: flex;
+    justify-content: center;
+}
+.titulodabola{
+    font-weight: bold;
+    margin-top: 100px;
+    height: 100px;
+    width: 100px;
+    margin-right: 100px;
+    margin-bottom: -70px;
+    color: #6b6464;
+}
+.cursos{
+    margin-left: 100px;
+}
+.sumotopicos{
+    display: flex;
+    justify-content: center;
+}
+.sumo{
+    margin-right: 100px;
+    margin-top: 40px;
+    font-size: 16px;
+    height: 250px;
+    width: 100px;
+    padding-bottom: 200px;
+    color: #514b4b;
+}
+.cursos2{
+    margin-left: 100px;
+}
+.divimg2{
+    display: flex;
+    justify-content: end;
+    margin-top: -250px;
+    height: 280px;
+    width: 1000px;
+}
+.redessociais{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+.logofinal{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    margin: 50px 0px;
+    margin-right: 16px;
+}
+.rede{
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 70px;
+}
+.final{
+    background-color: #C4C4C4;
+}
+.barrinhafinal{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 16px;
+}
+.logo-final1{
+    display: flex;
+    justify-content: center;
+    margin: 45px 0px;
+    margin-right: 12px;
+    font-size: 60px;
+    margin-top: 250px;
+}
+@media screen and (max-width: 700px) {
+    header{
+        background-color: #EAEAEA;
+        padding: 30px;
+        width: 60%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo{
+        margin-right: 30px;
+        font-size: 20px;
+        margin-left: -100px;
+        height: 30px;
+    }
+
+    .ul_link{
+        display: flex;
+        justify-content: end;
+    }
+
+    .a{
+        color: #000000;
+        font-weight: 400;
+        font-size: 14px;
+        margin-right: 20px;
+    }
+
+    .contato{
+        margin-right: 10px;
+        color: #000000;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .primeiradiv1{
+    background-color: #CCCCCC;
+    padding: 100px 100px;
+    }
+
+    .h1-primeiro{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    
+    }
+
+    .img-primeira{
+    margin-top: 10px;
+    height: 150px;
+    width: 170px;
+    }
+
+    .div-2{  
+    padding-top: 10px;
+    padding-bottom: 200px;
+        }
+
+    .divimg2{
+    height: 100px;
+    margin-left: -750px;
+    margin-bottom: 10px;
+    }
+
+    .titulodabola{
+    font-size: 15px;
+    }
+
+    .titulo{
+    margin-right: -40px;
+    }
+
+    .cursoajeitar{
+    margin-left: 60px;
+    }
+
+    .cursoajeitar2{
+    margin-right: -1px;
+    margin-right: 10v px;
+    }
+
+    .palavra2{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    padding-right: -100px;
+    }
+
+    .t1{
+    margin-left: -50px;
+    }
+
+    .palavra-2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    }
+
+
+    .ulbolas{
+    display: flex;
+    justify-content: center; 
+    }
+
+    .bola {
+    border-radius: 50%;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin-right: 5px;
+    background-color: #E5E5E5;
+    }
+
+    .sumotopicos{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 13px;
+    margin-right: 1px;
+    margin-bottom: -70px;
+    }
+
+    .sumo{
+    margin-top: 30px;
+    margin-right: 4px;
+    font-size: 10px;
+    color: #FFFFFF;
+    }
+
+    }

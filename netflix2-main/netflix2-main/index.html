@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="https://assets.nflxext.com/ffe/siteui/common/icons/nficon2016.ico">
+</head>
+<header>
+    <img class="netflix" src="svg.svg" alt="">
+</header>
+
+<body>
+    <div class="div-prin">
+        <h1 class="login">Entrar</h1>
+        <div >
+            
+            <div class="div-principal">
+                <div>
+                    
+                    
+                </div>
+
+                
+            </div>
+
+
+            <div >
+                <input class="email" type="email" type="tel" id="email"  required placeholder="Email ou numero de telefone" >
+            </div>
+            <div>
+                <input class="senha" type="password" id="senha" placeholder="senha" required autocomplete="current-password" >
+            </div>
+                 <div>
+                    <a href="file:///C:/Users/Davi/Downloads/netflix2-main/netflix2-main/gerenciar%20perfis.html" class="butao">Entrar</a>
+                </div>
+            <div>
+                <ul>
+                    <li><input class="lembrar" type="checkbox" id="lembrar">  <a class="lembrar-text" href="#">Lembrar de mim</a></li>
+                    
+                </ul>
+
+                <ul class="b"><li><a href="#" class="link-ajuda">precisa de ajuda?</a></li></ul>
+                
+            </div>
+
+            
+        </div>
+        <div> 
+            <p class="novo">Novo por aqui? <a class="link-assine" href="#">Assine agora.</a></p>
+            <p class="texto_descricao">Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. </p>
+            <a href="#" class="saiba">Saiba mais.</a>
+        </div>
+    </div>
+
+
+</body>
+
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyC9FLTKXMHiv9A58Vss6S8l2UAEWPdp0mY",
+      authDomain: "teste-5aae9.firebaseapp.com",
+      projectId: "teste-5aae9",
+      storageBucket: "teste-5aae9.appspot.com",
+      messagingSenderId: "1025814991585",
+      appId: "1:1025814991585:web:bd227e5a8169046c719da0",
+      measurementId: "G-K8VXGN21QF"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+
+  <script src="js.js"></script>
+</html>
